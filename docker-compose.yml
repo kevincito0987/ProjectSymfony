@@ -1,0 +1,67 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    container_name: project-symfony-app
+    volumes:
+      - .:/workspaces/ProyectSymfony:cached
+      # AGREGADO: Monta el socket de Docker para que el contenedor pueda ejecutar comandos Docker
+      - /var/run/docker.sock:/var/run/docker.sock
+    working_dir: /workspace
+    command: bash -lc "tail -f /dev/null"
+    environment:
+      - TZ=UTC
+    ports:
+      - "8001:8000"
+    depends_on:
+      - db
+      - pgsql
+      - redis
+      - mailpit
+
+  db:
+    image: mysql:8.4.3
+    container_name: project-symfony-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: symfony_db
+      MYSQL_USER: symfony_user
+      MYSQL_PASSWORD: admin
+    volumes:
+      - dbdata-symfony:/var/lib/mysql
+    ports:
+      - "3307:3306"
+
+  pgsql:
+    image: postgres:16-alpine
+    container_name: project-symfony-pgsql
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: symfony_db
+      POSTGRES_USER: symfony_user
+      POSTGRES_PASSWORD: admin
+    volumes:
+      - pgdata-symfony:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+  
+  redis:
+    image: redis:7
+    container_name: project-symfony-redis
+    ports:
+      - "6379:6379"
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: project-symfony-mailpit
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+    restart: unless-stopped
+
+# ESTA ES LA PARTE CLAVE: Los nombres aquí deben ser IGUALES a los de arriba
+volumes:
+  dbdata-symfony:
+  pgdata-symfony:
