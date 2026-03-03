@@ -5,6 +5,10 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn:      mysql:host=localhost;dbname=MiReto
-      username: root
-      password: 
+      # Cambiamos 'localhost' por 'db' que es el nombre de tu servicio en Docker
+      dsn:      'mysql:host=db;dbname=symfony_db'
+      username: symfony_user
+      password: admin
+      attributes:
+        # Esto es vital para MySQL 8.4 y PHP 7/8
+        quote_identifier: true

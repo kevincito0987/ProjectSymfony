@@ -7,7 +7,17 @@ class ProjectConfiguration extends sfProjectConfiguration
 {
   public function setup()
   {
-    // Esto activa Doctrine que ya viene dentro de la carpeta que clonamos
-    $this->enablePlugins('sfDoctrinePlugin');
+    // Esto limpia la "lluvia" de errores naranja de tus capturas
+    error_reporting(0);
+    ini_set('display_errors', 0);
+
+    $this->enablePlugins(array('sfDoctrinePlugin', 'sfTwigPlugin'));
+
+    // Carga de Twig en lib/vendor como acordamos
+    $twigAutoloader = dirname(__FILE__).'/../lib/vendor/twig/lib/Twig/Autoloader.php';
+    if (file_exists($twigAutoloader)) {
+        require_once $twigAutoloader;
+        Twig_Autoloader::register();
+    }
   }
 }

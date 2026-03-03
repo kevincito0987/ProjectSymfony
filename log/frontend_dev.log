@@ -1,0 +1,724 @@
+Mar 03 16:10:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:10:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:10:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:10:43 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:10:43 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:10:43 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:10:43 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:10:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:10:43 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:10:43 symfony [info] {sfWebDebugLogger} Configuration 11.43 ms (9)
+Mar 03 16:10:43 symfony [info] {sfWebDebugLogger} Factories 12.10 ms (1)
+Mar 03 16:10:43 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:10:43 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.43 ms (1)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:10:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:10:43 symfony [info] {sfWebResponse} Send content (31150 o)
+Mar 03 16:12:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:12:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:12:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:12:11 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:12:11 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:12:11 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:12:11 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:12:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:12:11 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:12:11 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 16:12:11 symfony [info] {sfWebDebugLogger} Factories 7.42 ms (1)
+Mar 03 16:12:11 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:12:11 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 1.96 ms (1)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:12:11 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:12:11 symfony [info] {sfWebResponse} Send content (31179 o)
+Mar 03 16:13:29 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:13:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:13:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:13:29 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:13:29 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:13:29 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:13:29 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:13:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:13:29 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:13:29 symfony [info] {sfWebDebugLogger} Configuration 10.86 ms (9)
+Mar 03 16:13:29 symfony [info] {sfWebDebugLogger} Factories 13.66 ms (1)
+Mar 03 16:13:29 symfony [info] {sfWebDebugLogger} Action "test/index" 0.05 ms (1)
+Mar 03 16:13:29 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 2.74 ms (1)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:29 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:29 symfony [info] {sfWebResponse} Send content (31179 o)
+Mar 03 16:13:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:13:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:13:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:13:55 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:13:55 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:13:55 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:13:55 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:13:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:13:55 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:13:55 symfony [info] {sfWebDebugLogger} Configuration 11.48 ms (9)
+Mar 03 16:13:55 symfony [info] {sfWebDebugLogger} Factories 11.88 ms (1)
+Mar 03 16:13:55 symfony [info] {sfWebDebugLogger} Action "test/index" 0.03 ms (1)
+Mar 03 16:13:55 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 2.86 ms (1)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:13:55 symfony [info] {sfWebResponse} Send content (31181 o)
+Mar 03 16:15:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:15:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:15:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:15:22 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:15:22 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:15:22 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:15:22 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:15:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:15:22 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:15:22 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (9)
+Mar 03 16:15:22 symfony [info] {sfWebDebugLogger} Factories 8.85 ms (1)
+Mar 03 16:15:22 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:15:22 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 1.90 ms (1)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:15:22 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:15:22 symfony [info] {sfWebResponse} Send content (31148 o)
+Mar 03 16:16:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:16:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:16:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:16:31 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:16:31 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:16:31 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:16:31 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:16:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:16:31 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:16:31 symfony [info] {sfWebDebugLogger} Configuration 11.29 ms (9)
+Mar 03 16:16:31 symfony [info] {sfWebDebugLogger} Factories 10.96 ms (1)
+Mar 03 16:16:31 symfony [info] {sfWebDebugLogger} Action "test/index" 0.03 ms (1)
+Mar 03 16:16:31 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 2.64 ms (1)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:16:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:16:31 symfony [info] {sfWebResponse} Send content (31181 o)
+Mar 03 16:17:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:17:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:17:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:17:23 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:17:23 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:17:23 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:17:23 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:17:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:17:23 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:17:23 symfony [info] {sfWebDebugLogger} Configuration 10.79 ms (9)
+Mar 03 16:17:23 symfony [info] {sfWebDebugLogger} Factories 11.28 ms (1)
+Mar 03 16:17:23 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:17:23 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 2.65 ms (1)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:17:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:17:23 symfony [info] {sfWebResponse} Send content (31182 o)
+Mar 03 16:26:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:26:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:26:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:26:51 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:26:51 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:26:51 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:26:51 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:26:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:26:51 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:26:51 symfony [info] {sfWebDebugLogger} Configuration 10.63 ms (9)
+Mar 03 16:26:51 symfony [info] {sfWebDebugLogger} Factories 10.83 ms (1)
+Mar 03 16:26:51 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:26:51 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 2.42 ms (1)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:26:51 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:26:51 symfony [info] {sfWebResponse} Send content (31182 o)
+Mar 03 16:30:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:30:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:30:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:30:03 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:30:03 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:30:03 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:30:03 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:30:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:30:03 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:30:03 symfony [info] {sfWebDebugLogger} Configuration 10.40 ms (9)
+Mar 03 16:30:03 symfony [info] {sfWebDebugLogger} Factories 10.60 ms (1)
+Mar 03 16:30:03 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:30:03 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 2.71 ms (1)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:03 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:03 symfony [info] {sfWebResponse} Send content (31182 o)
+Mar 03 16:30:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:30:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:30:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:30:14 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:30:14 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:30:14 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:30:14 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:30:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:30:14 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:30:14 symfony [info] {sfWebDebugLogger} Configuration 0.37 ms (9)
+Mar 03 16:30:14 symfony [info] {sfWebDebugLogger} Factories 8.24 ms (1)
+Mar 03 16:30:14 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:30:14 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 2.67 ms (1)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:14 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:30:14 symfony [info] {sfWebResponse} Send content (31180 o)
+Mar 03 16:32:41 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:32:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:32:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:32:41 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:32:41 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:32:41 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:32:41 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:32:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:32:41 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:32:41 symfony [info] {sfWebDebugLogger} Configuration 13.22 ms (9)
+Mar 03 16:32:41 symfony [info] {sfWebDebugLogger} Factories 13.63 ms (1)
+Mar 03 16:32:41 symfony [info] {sfWebDebugLogger} Action "test/index" 0.04 ms (1)
+Mar 03 16:32:41 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.00 ms (1)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:32:41 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:32:41 symfony [info] {sfWebResponse} Send content (31182 o)
+Mar 03 16:33:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:33:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:33:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:33:43 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:33:43 symfony [err] {sfRenderException} The template "indexSuccess.php" does not exist or is unreadable in "".
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:33:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:33:43 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:33:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 16:33:43 symfony [info] {sfWebDebugLogger} Configuration 11.41 ms (9)
+Mar 03 16:33:43 symfony [info] {sfWebDebugLogger} Factories 11.50 ms (1)
+Mar 03 16:33:43 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:33:43 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 8.43 ms (1)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:52 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:33:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:33:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:33:52 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:33:52 symfony [err] {sfRenderException} The template "indexSuccess.php" does not exist or is unreadable in "".
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:33:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:33:52 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:33:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 16:33:52 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (9)
+Mar 03 16:33:52 symfony [info] {sfWebDebugLogger} Factories 8.42 ms (1)
+Mar 03 16:33:52 symfony [info] {sfWebDebugLogger} Action "test/index" 0.01 ms (1)
+Mar 03 16:33:52 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 4.65 ms (1)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:33:52 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:37:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:37:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:37:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:37:30 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:37:30 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:37:30 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:37:30 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:37:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:37:30 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:37:30 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (9)
+Mar 03 16:37:30 symfony [info] {sfWebDebugLogger} Factories 8.17 ms (1)
+Mar 03 16:37:30 symfony [info] {sfWebDebugLogger} Action "test/index" 0.01 ms (1)
+Mar 03 16:37:30 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 2.16 ms (1)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:37:30 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:37:30 symfony [info] {sfWebResponse} Send content (31146 o)
+Mar 03 16:39:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:39:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:39:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:39:42 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:39:42 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:39:42 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:39:42 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:39:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:39:42 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:39:42 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (9)
+Mar 03 16:39:42 symfony [info] {sfWebDebugLogger} Factories 9.06 ms (1)
+Mar 03 16:39:42 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:39:42 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 2.57 ms (1)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:42 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:42 symfony [info] {sfWebResponse} Send content (31148 o)
+Mar 03 16:39:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:39:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:39:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:39:55 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:39:55 symfony [err] {sfRenderException} The template "indexSuccess.php" does not exist or is unreadable in "".
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:39:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:39:55 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:39:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 16:39:55 symfony [info] {sfWebDebugLogger} Configuration 11.37 ms (9)
+Mar 03 16:39:55 symfony [info] {sfWebDebugLogger} Factories 13.50 ms (1)
+Mar 03 16:39:55 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:39:55 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 6.83 ms (1)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:39:55 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:41:59 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:41:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:41:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:41:59 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:41:59 symfony [err] {sfRenderException} The template "indexSuccess.php" does not exist or is unreadable in "".
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:41:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:41:59 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:41:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 16:41:59 symfony [info] {sfWebDebugLogger} Configuration 11.38 ms (9)
+Mar 03 16:41:59 symfony [info] {sfWebDebugLogger} Factories 12.55 ms (1)
+Mar 03 16:41:59 symfony [info] {sfWebDebugLogger} Action "test/index" 0.03 ms (1)
+Mar 03 16:41:59 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 6.12 ms (1)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:41:59 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:42:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:42:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:42:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:42:19 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:42:19 symfony [err] {sfRenderException} The template "indexSuccess.php" does not exist or is unreadable in "".
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:42:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:42:19 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:42:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 16:42:19 symfony [info] {sfWebDebugLogger} Configuration 0.34 ms (9)
+Mar 03 16:42:19 symfony [info] {sfWebDebugLogger} Factories 6.77 ms (1)
+Mar 03 16:42:19 symfony [info] {sfWebDebugLogger} Action "test/index" 0.01 ms (1)
+Mar 03 16:42:19 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 5.00 ms (1)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:42:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:46:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:46:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:46:19 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:46:19 symfony [err] {sfRenderException} The template "indexSuccess.php" does not exist or is unreadable in "".
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:46:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:46:19 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:46:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 16:46:19 symfony [info] {sfWebDebugLogger} Configuration 11.00 ms (9)
+Mar 03 16:46:19 symfony [info] {sfWebDebugLogger} Factories 10.83 ms (1)
+Mar 03 16:46:19 symfony [info] {sfWebDebugLogger} Action "test/index" 0.03 ms (1)
+Mar 03 16:46:19 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 5.91 ms (1)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:19 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:43 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:46:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:46:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:46:43 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 107 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:46:43 symfony [err] {sfRenderException} The template "indexSuccess.php" does not exist or is unreadable in "".
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/exception/sfException.class.php on line 161 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:46:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:46:43 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:46:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 16:46:43 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (9)
+Mar 03 16:46:43 symfony [info] {sfWebDebugLogger} Factories 8.35 ms (1)
+Mar 03 16:46:43 symfony [info] {sfWebDebugLogger} Action "test/index" 0.01 ms (1)
+Mar 03 16:46:43 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 5.10 ms (1)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:46:43 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:48:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:48:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:48:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:48:31 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:48:31 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:48:31 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:48:31 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:48:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/config/sfConfigHandler.class.php:78))
+Mar 03 16:48:31 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:48:31 symfony [info] {sfWebDebugLogger} Configuration 11.59 ms (9)
+Mar 03 16:48:31 symfony [info] {sfWebDebugLogger} Factories 11.40 ms (1)
+Mar 03 16:48:31 symfony [info] {sfWebDebugLogger} Action "test/index" 0.03 ms (1)
+Mar 03 16:48:31 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 16.23 ms (1)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:48:31 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:48:31 symfony [info] {sfWebResponse} Send content (31416 o)
+Mar 03 16:50:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 72 (session_name(): Cannot change session name when headers already sent)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 84 (session_set_cookie_params(): Cannot change session cookie parameters when headers already sent)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php on line 93 (session_start(): Cannot start session when headers already sent)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php on line 257 (ini_set(): Headers already sent. You cannot change the session module's ini settings at this time)
+Mar 03 16:50:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:50:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:50:23 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:50:23 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:50:23 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:50:23 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:50:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/request/sfWebRequest.class.php:77))
+Mar 03 16:50:23 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:50:23 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (9)
+Mar 03 16:50:23 symfony [info] {sfWebDebugLogger} Factories 9.31 ms (1)
+Mar 03 16:50:23 symfony [info] {sfWebDebugLogger} Action "test/index" 0.02 ms (1)
+Mar 03 16:50:23 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 11.43 ms (1)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 409 (preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:50:23 symfony [warning] {sfWebDebugLogger}  Warning at /workspaces/ProyectSymfony/lib/vendor/symfony/lib/yaml/sfYamlInline.php(138) : runtime-created function on line 1 (A non-numeric value encountered)
+Mar 03 16:50:23 symfony [info] {sfWebResponse} Send content (31412 o)
+Mar 03 16:51:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 16:51:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 16:51:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 16:51:21 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 16:51:21 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 16:51:21 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:51:21 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 16:51:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 16:51:21 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 16:51:21 symfony [info] {sfWebDebugLogger} Configuration 8.65 ms (9)
+Mar 03 16:51:21 symfony [info] {sfWebDebugLogger} Factories 9.01 ms (1)
+Mar 03 16:51:21 symfony [info] {sfWebDebugLogger} Action "test/index" 0.01 ms (1)
+Mar 03 16:51:21 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 10.60 ms (1)
+Mar 03 16:51:21 symfony [info] {sfWebResponse} Send content (31648 o)
+Mar 03 17:17:50 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 17:17:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 17:17:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 17:17:50 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 17:17:50 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 17:17:50 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 17:17:50 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 17:17:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 17:17:50 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 17:17:50 symfony [info] {sfWebDebugLogger} Configuration 8.16 ms (9)
+Mar 03 17:17:50 symfony [info] {sfWebDebugLogger} Factories 8.95 ms (1)
+Mar 03 17:17:50 symfony [info] {sfWebDebugLogger} Action "test/index" 0.01 ms (1)
+Mar 03 17:17:50 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 10.31 ms (1)
+Mar 03 17:17:50 symfony [info] {sfWebResponse} Send content (32567 o)

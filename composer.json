@@ -1,0 +1,7 @@
+{"require": {"twig/twig": "^1.44"},
+    "config": {
+        "audit": {
+            "abandoned": "ignore"
+        }
+    }
+}
