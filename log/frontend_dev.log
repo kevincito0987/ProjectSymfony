@@ -6815,3 +6815,1344 @@ Mar 03 20:43:34 symfony [info] {sfWebDebugLogger} Action "pais/index" 8.71 ms (1
 Mar 03 20:43:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.46 ms (17)
 Mar 03 20:43:34 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 10.52 ms (1)
 Mar 03 20:43:34 symfony [info] {sfWebResponse} Send content (84500 o)
+Mar 03 20:45:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:45:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:45:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:45:25 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:45:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:45:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 20:45:25 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:45:25 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:45:25 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:45:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:45:25 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:45:25 symfony [info] {sfWebDebugLogger} Configuration 0.32 ms (9)
+Mar 03 20:45:25 symfony [info] {sfWebDebugLogger} Factories 5.50 ms (1)
+Mar 03 20:45:25 symfony [info] {sfWebDebugLogger} Action "test/index" 6.94 ms (1)
+Mar 03 20:45:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.49 ms (2)
+Mar 03 20:45:25 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 12.80 ms (1)
+Mar 03 20:45:25 symfony [info] {sfWebResponse} Send content (37492 o)
+Mar 03 20:46:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 20:46:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:46:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:46:01 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 20:46:01 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:46:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:46:01 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:46:01 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:46:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:46:01 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:46:01 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 20:46:01 symfony [info] {sfWebDebugLogger} Factories 5.76 ms (1)
+Mar 03 20:46:01 symfony [info] {sfWebDebugLogger} Action "pais/index" 5.68 ms (1)
+Mar 03 20:46:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.17 ms (17)
+Mar 03 20:46:01 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 9.68 ms (1)
+Mar 03 20:46:01 symfony [info] {sfWebResponse} Send content (84524 o)
+Mar 03 20:46:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /continente with parameters array (  'module' => 'continente',  'action' => 'index',)
+Mar 03 20:46:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:46:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:46:11 symfony [info] {continenteActions} Call "continenteActions->executeIndex()"
+Mar 03 20:46:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:46:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` - ()
+Mar 03 20:46:11 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/continente/templates/indexSuccess.php"
+Mar 03 20:46:11 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:46:11 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:46:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:46:11 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:46:11 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 20:46:11 symfony [info] {sfWebDebugLogger} Factories 6.08 ms (1)
+Mar 03 20:46:11 symfony [info] {sfWebDebugLogger} Action "continente/index" 5.75 ms (1)
+Mar 03 20:46:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.29 ms (2)
+Mar 03 20:46:11 symfony [info] {sfWebDebugLogger} View "Success" for "continente/index" 3.28 ms (1)
+Mar 03 20:46:11 symfony [info] {sfWebResponse} Send content (44341 o)
+Mar 03 20:46:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alerta with parameters array (  'module' => 'alerta',  'action' => 'index',)
+Mar 03 20:46:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:46:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:46:16 symfony [info] {alertaActions} Call "alertaActions->executeIndex()"
+Mar 03 20:46:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:46:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo`, `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `alerta_medica` `a` LEFT JOIN `pais_salud` `p` ON `a`.`pais_id` = `p`.`id` - ()
+Mar 03 20:46:16 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/alerta/templates/indexSuccess.php"
+Mar 03 20:46:16 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:46:16 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:46:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:46:16 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:46:16 symfony [info] {sfWebDebugLogger} Configuration 0.35 ms (9)
+Mar 03 20:46:16 symfony [info] {sfWebDebugLogger} Factories 5.54 ms (1)
+Mar 03 20:46:16 symfony [info] {sfWebDebugLogger} Action "alerta/index" 6.91 ms (1)
+Mar 03 20:46:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.46 ms (2)
+Mar 03 20:46:16 symfony [info] {sfWebDebugLogger} View "Success" for "alerta/index" 2.23 ms (1)
+Mar 03 20:46:16 symfony [info] {sfWebResponse} Send content (37718 o)
+Mar 03 20:50:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alerta with parameters array (  'module' => 'alerta',  'action' => 'index',)
+Mar 03 20:50:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:50:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:50:02 symfony [info] {alertaActions} Call "alertaActions->executeIndex()"
+Mar 03 20:50:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:50:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo`, `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `alerta_medica` `a` LEFT JOIN `pais_salud` `p` ON `a`.`pais_id` = `p`.`id` - ()
+Mar 03 20:50:02 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/alerta/templates/indexSuccess.php"
+Mar 03 20:50:02 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:50:02 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:50:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:50:02 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:50:02 symfony [info] {sfWebDebugLogger} Configuration 0.39 ms (9)
+Mar 03 20:50:02 symfony [info] {sfWebDebugLogger} Factories 7.26 ms (1)
+Mar 03 20:50:02 symfony [info] {sfWebDebugLogger} Action "alerta/index" 7.16 ms (1)
+Mar 03 20:50:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.34 ms (2)
+Mar 03 20:50:02 symfony [info] {sfWebDebugLogger} View "Success" for "alerta/index" 1.95 ms (1)
+Mar 03 20:50:02 symfony [info] {sfWebResponse} Send content (37750 o)
+Mar 03 20:50:03 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:50:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:50:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:50:03 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:50:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:50:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:50:03 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:50:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 20:50:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 20:50:03 symfony [err] {Twig\Error\RuntimeError} An exception has been thrown during the rendering of a template ("Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"").
+Mar 03 20:50:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 20:50:03 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:50:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 20:50:03 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 20:50:03 symfony [info] {sfWebDebugLogger} Factories 5.98 ms (1)
+Mar 03 20:50:03 symfony [info] {sfWebDebugLogger} Action "test/index" 5.80 ms (1)
+Mar 03 20:50:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.27 ms (4)
+Mar 03 20:50:03 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 21.95 ms (1)
+Mar 03 20:52:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:52:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:52:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:52:24 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:52:24 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:52:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:52:24 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:52:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 20:52:24 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 20:52:24 symfony [err] {Twig\Error\RuntimeError} An exception has been thrown during the rendering of a template ("Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"").
+Mar 03 20:52:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 20:52:24 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:52:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 20:52:24 symfony [info] {sfWebDebugLogger} Configuration 9.77 ms (9)
+Mar 03 20:52:24 symfony [info] {sfWebDebugLogger} Factories 8.78 ms (1)
+Mar 03 20:52:24 symfony [info] {sfWebDebugLogger} Action "test/index" 5.85 ms (1)
+Mar 03 20:52:24 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.23 ms (4)
+Mar 03 20:52:24 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 21.08 ms (1)
+Mar 03 20:54:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:54:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:54:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:54:37 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:54:37 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:54:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:54:37 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:54:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 20:54:37 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 20:54:37 symfony [err] {Twig\Error\RuntimeError} An exception has been thrown during the rendering of a template ("Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"").
+Mar 03 20:54:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 20:54:37 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:54:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 20:54:37 symfony [info] {sfWebDebugLogger} Configuration 0.35 ms (9)
+Mar 03 20:54:37 symfony [info] {sfWebDebugLogger} Factories 6.27 ms (1)
+Mar 03 20:54:37 symfony [info] {sfWebDebugLogger} Action "test/index" 6.02 ms (1)
+Mar 03 20:54:37 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.10 ms (4)
+Mar 03 20:54:37 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 21.11 ms (1)
+Mar 03 20:54:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:54:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:54:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:54:44 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:54:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:54:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:54:44 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:54:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 20:54:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 20:54:44 symfony [err] {Twig\Error\RuntimeError} An exception has been thrown during the rendering of a template ("Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"").
+Mar 03 20:54:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 20:54:44 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:54:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 20:54:44 symfony [info] {sfWebDebugLogger} Configuration 8.56 ms (9)
+Mar 03 20:54:44 symfony [info] {sfWebDebugLogger} Factories 8.96 ms (1)
+Mar 03 20:54:44 symfony [info] {sfWebDebugLogger} Action "test/index" 6.01 ms (1)
+Mar 03 20:54:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.94 ms (4)
+Mar 03 20:54:44 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 20.82 ms (1)
+Mar 03 20:55:30 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:55:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:55:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:55:30 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:55:30 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:55:30 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:55:30 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:55:30 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:30 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:55:30 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:55:30 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (9)
+Mar 03 20:55:30 symfony [info] {sfWebDebugLogger} Factories 7.66 ms (1)
+Mar 03 20:55:30 symfony [info] {sfWebDebugLogger} Action "test/index" 6.39 ms (1)
+Mar 03 20:55:30 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.49 ms (2)
+Mar 03 20:55:30 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.78 ms (1)
+Mar 03 20:55:30 symfony [info] {sfWebResponse} Send content (35528 o)
+Mar 03 20:55:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:55:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:55:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:55:32 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:55:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:55:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:55:32 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:55:32 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:32 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:55:32 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:55:32 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 20:55:32 symfony [info] {sfWebDebugLogger} Factories 5.48 ms (1)
+Mar 03 20:55:32 symfony [info] {sfWebDebugLogger} Action "test/index" 5.97 ms (1)
+Mar 03 20:55:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.43 ms (2)
+Mar 03 20:55:32 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.89 ms (1)
+Mar 03 20:55:32 symfony [info] {sfWebResponse} Send content (35493 o)
+Mar 03 20:55:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 20:55:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:55:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:55:33 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 20:55:33 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:55:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:55:33 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:33 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:55:33 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:55:33 symfony [info] {sfWebDebugLogger} Configuration 3.29 ms (10)
+Mar 03 20:55:33 symfony [info] {sfWebDebugLogger} Factories 5.38 ms (1)
+Mar 03 20:55:33 symfony [info] {sfWebDebugLogger} Action "pais/index" 6.57 ms (1)
+Mar 03 20:55:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.43 ms (17)
+Mar 03 20:55:33 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 11.08 ms (1)
+Mar 03 20:55:33 symfony [info] {sfWebResponse} Send content (84526 o)
+Mar 03 20:55:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /continente with parameters array (  'module' => 'continente',  'action' => 'index',)
+Mar 03 20:55:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:55:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:55:34 symfony [info] {continenteActions} Call "continenteActions->executeIndex()"
+Mar 03 20:55:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:55:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` - ()
+Mar 03 20:55:34 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/continente/templates/indexSuccess.php"
+Mar 03 20:55:34 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:34 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:55:34 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} Configuration 3.31 ms (10)
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} Factories 5.75 ms (1)
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} Action "continente/index" 6.77 ms (1)
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.39 ms (2)
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} View "Success" for "continente/index" 4.45 ms (1)
+Mar 03 20:55:34 symfony [info] {sfWebResponse} Send content (44344 o)
+Mar 03 20:55:34 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alerta with parameters array (  'module' => 'alerta',  'action' => 'index',)
+Mar 03 20:55:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:55:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:55:34 symfony [info] {alertaActions} Call "alertaActions->executeIndex()"
+Mar 03 20:55:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:55:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo`, `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `alerta_medica` `a` LEFT JOIN `pais_salud` `p` ON `a`.`pais_id` = `p`.`id` - ()
+Mar 03 20:55:34 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/alerta/templates/indexSuccess.php"
+Mar 03 20:55:34 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:34 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:55:34 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} Configuration 3.37 ms (10)
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} Factories 5.59 ms (1)
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} Action "alerta/index" 6.66 ms (1)
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.39 ms (2)
+Mar 03 20:55:34 symfony [info] {sfWebDebugLogger} View "Success" for "alerta/index" 2.41 ms (1)
+Mar 03 20:55:34 symfony [info] {sfWebResponse} Send content (37720 o)
+Mar 03 20:55:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:55:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:55:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:55:36 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:55:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:55:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:55:36 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:55:36 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:36 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:55:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:55:36 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:55:36 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 20:55:36 symfony [info] {sfWebDebugLogger} Factories 5.65 ms (1)
+Mar 03 20:55:36 symfony [info] {sfWebDebugLogger} Action "test/index" 6.47 ms (1)
+Mar 03 20:55:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.51 ms (2)
+Mar 03 20:55:36 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.80 ms (1)
+Mar 03 20:55:36 symfony [info] {sfWebResponse} Send content (35496 o)
+Mar 03 20:56:09 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:56:09 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:09 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:09 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:56:09 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:09 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:56:09 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:56:09 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:09 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:09 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:09 symfony [info] {sfWebDebugLogger} Configuration 0.34 ms (9)
+Mar 03 20:56:09 symfony [info] {sfWebDebugLogger} Factories 5.81 ms (1)
+Mar 03 20:56:09 symfony [info] {sfWebDebugLogger} Action "test/index" 6.13 ms (1)
+Mar 03 20:56:09 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.62 ms (2)
+Mar 03 20:56:09 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.70 ms (1)
+Mar 03 20:56:09 symfony [info] {sfWebResponse} Send content (35493 o)
+Mar 03 20:56:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:56:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:14 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:56:14 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:14 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:56:14 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:56:14 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:14 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:14 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:14 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (9)
+Mar 03 20:56:14 symfony [info] {sfWebDebugLogger} Factories 7.06 ms (1)
+Mar 03 20:56:14 symfony [info] {sfWebDebugLogger} Action "test/index" 6.22 ms (1)
+Mar 03 20:56:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.44 ms (2)
+Mar 03 20:56:14 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.49 ms (1)
+Mar 03 20:56:14 symfony [info] {sfWebResponse} Send content (35525 o)
+Mar 03 20:56:15 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:56:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:15 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:56:15 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:15 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:56:15 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:56:15 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:15 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:15 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:15 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 20:56:15 symfony [info] {sfWebDebugLogger} Factories 5.40 ms (1)
+Mar 03 20:56:15 symfony [info] {sfWebDebugLogger} Action "test/index" 6.05 ms (1)
+Mar 03 20:56:15 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.50 ms (2)
+Mar 03 20:56:15 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.70 ms (1)
+Mar 03 20:56:15 symfony [info] {sfWebResponse} Send content (35492 o)
+Mar 03 20:56:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 20:56:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:16 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 20:56:16 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:16 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:16 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:16 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} Configuration 0.34 ms (9)
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} Factories 5.83 ms (1)
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} Action "pais/index" 7.17 ms (1)
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.10 ms (17)
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 10.59 ms (1)
+Mar 03 20:56:16 symfony [info] {sfWebResponse} Send content (84525 o)
+Mar 03 20:56:16 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:56:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:16 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:16 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:56:16 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:56:16 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:16 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:16 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} Configuration 0.36 ms (9)
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} Factories 5.52 ms (1)
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} Action "test/index" 6.06 ms (1)
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.55 ms (2)
+Mar 03 20:56:16 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 4.40 ms (1)
+Mar 03 20:56:16 symfony [info] {sfWebResponse} Send content (35493 o)
+Mar 03 20:56:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:56:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:23 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:56:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:56:23 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:56:23 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:23 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:23 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:23 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (9)
+Mar 03 20:56:23 symfony [info] {sfWebDebugLogger} Factories 7.51 ms (1)
+Mar 03 20:56:23 symfony [info] {sfWebDebugLogger} Action "test/index" 5.96 ms (1)
+Mar 03 20:56:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.50 ms (2)
+Mar 03 20:56:23 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.52 ms (1)
+Mar 03 20:56:23 symfony [info] {sfWebResponse} Send content (35526 o)
+Mar 03 20:56:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 20:56:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:25 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 20:56:25 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:25 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:25 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:25 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (9)
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} Factories 7.26 ms (1)
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} Action "pais/index" 6.21 ms (1)
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.32 ms (17)
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 9.81 ms (1)
+Mar 03 20:56:25 symfony [info] {sfWebResponse} Send content (84524 o)
+Mar 03 20:56:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /continente with parameters array (  'module' => 'continente',  'action' => 'index',)
+Mar 03 20:56:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:25 symfony [info] {continenteActions} Call "continenteActions->executeIndex()"
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` - ()
+Mar 03 20:56:25 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/continente/templates/indexSuccess.php"
+Mar 03 20:56:25 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:25 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:25 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} Configuration 0.35 ms (9)
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} Factories 5.51 ms (1)
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} Action "continente/index" 6.68 ms (1)
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.42 ms (2)
+Mar 03 20:56:25 symfony [info] {sfWebDebugLogger} View "Success" for "continente/index" 3.65 ms (1)
+Mar 03 20:56:25 symfony [info] {sfWebResponse} Send content (44342 o)
+Mar 03 20:56:26 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:56:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:26 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:56:26 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:26 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:56:26 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:56:26 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:26 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:26 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:26 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (9)
+Mar 03 20:56:26 symfony [info] {sfWebDebugLogger} Factories 7.38 ms (1)
+Mar 03 20:56:26 symfony [info] {sfWebDebugLogger} Action "test/index" 5.51 ms (1)
+Mar 03 20:56:26 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.42 ms (2)
+Mar 03 20:56:26 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.55 ms (1)
+Mar 03 20:56:26 symfony [info] {sfWebResponse} Send content (35499 o)
+Mar 03 20:56:32 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:56:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:32 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:56:32 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:32 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:56:32 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:56:32 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:32 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:32 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:32 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (9)
+Mar 03 20:56:32 symfony [info] {sfWebDebugLogger} Factories 7.15 ms (1)
+Mar 03 20:56:32 symfony [info] {sfWebDebugLogger} Action "test/index" 5.92 ms (1)
+Mar 03 20:56:32 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.43 ms (2)
+Mar 03 20:56:32 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 3.93 ms (1)
+Mar 03 20:56:32 symfony [info] {sfWebResponse} Send content (35532 o)
+Mar 03 20:56:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:56:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:33 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:56:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:33 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:56:33 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:56:33 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:33 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:33 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:33 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 20:56:33 symfony [info] {sfWebDebugLogger} Factories 6.34 ms (1)
+Mar 03 20:56:33 symfony [info] {sfWebDebugLogger} Action "test/index" 5.78 ms (1)
+Mar 03 20:56:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.51 ms (2)
+Mar 03 20:56:33 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 4.01 ms (1)
+Mar 03 20:56:33 symfony [info] {sfWebResponse} Send content (35493 o)
+Mar 03 20:56:34 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 20:56:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:34 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 20:56:34 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:56:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:56:34 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:34 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:34 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:34 symfony [info] {sfWebDebugLogger} Configuration 0.39 ms (9)
+Mar 03 20:56:34 symfony [info] {sfWebDebugLogger} Factories 6.33 ms (1)
+Mar 03 20:56:34 symfony [info] {sfWebDebugLogger} Action "pais/index" 7.01 ms (1)
+Mar 03 20:56:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.23 ms (17)
+Mar 03 20:56:34 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 10.77 ms (1)
+Mar 03 20:56:34 symfony [info] {sfWebResponse} Send content (84525 o)
+Mar 03 20:56:35 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:56:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:56:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:56:35 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:56:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:56:35 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:56:35 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:56:35 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:35 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:56:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:56:35 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:56:35 symfony [info] {sfWebDebugLogger} Configuration 0.35 ms (9)
+Mar 03 20:56:35 symfony [info] {sfWebDebugLogger} Factories 5.47 ms (1)
+Mar 03 20:56:35 symfony [info] {sfWebDebugLogger} Action "test/index" 6.45 ms (1)
+Mar 03 20:56:35 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.48 ms (2)
+Mar 03 20:56:35 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 4.24 ms (1)
+Mar 03 20:56:35 symfony [info] {sfWebResponse} Send content (35493 o)
+Mar 03 20:58:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 20:58:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:58:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:58:02 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 20:58:02 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:58:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:58:02 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:02 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:58:02 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:58:02 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 20:58:02 symfony [info] {sfWebDebugLogger} Factories 5.53 ms (1)
+Mar 03 20:58:02 symfony [info] {sfWebDebugLogger} Action "pais/index" 6.66 ms (1)
+Mar 03 20:58:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.41 ms (17)
+Mar 03 20:58:02 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 10.96 ms (1)
+Mar 03 20:58:02 symfony [info] {sfWebResponse} Send content (84524 o)
+Mar 03 20:58:07 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /continente with parameters array (  'module' => 'continente',  'action' => 'index',)
+Mar 03 20:58:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:58:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:58:07 symfony [info] {continenteActions} Call "continenteActions->executeIndex()"
+Mar 03 20:58:07 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:58:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` - ()
+Mar 03 20:58:07 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/continente/templates/indexSuccess.php"
+Mar 03 20:58:07 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:07 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:58:07 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:58:07 symfony [info] {sfWebDebugLogger} Configuration 0.36 ms (9)
+Mar 03 20:58:07 symfony [info] {sfWebDebugLogger} Factories 5.33 ms (1)
+Mar 03 20:58:07 symfony [info] {sfWebDebugLogger} Action "continente/index" 6.05 ms (1)
+Mar 03 20:58:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.35 ms (2)
+Mar 03 20:58:07 symfony [info] {sfWebDebugLogger} View "Success" for "continente/index" 3.38 ms (1)
+Mar 03 20:58:07 symfony [info] {sfWebResponse} Send content (44342 o)
+Mar 03 20:58:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alerta with parameters array (  'module' => 'alerta',  'action' => 'index',)
+Mar 03 20:58:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:58:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:58:08 symfony [info] {alertaActions} Call "alertaActions->executeIndex()"
+Mar 03 20:58:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:58:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo`, `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `alerta_medica` `a` LEFT JOIN `pais_salud` `p` ON `a`.`pais_id` = `p`.`id` - ()
+Mar 03 20:58:08 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/alerta/templates/indexSuccess.php"
+Mar 03 20:58:08 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:08 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:58:08 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:58:08 symfony [info] {sfWebDebugLogger} Configuration 0.32 ms (9)
+Mar 03 20:58:08 symfony [info] {sfWebDebugLogger} Factories 5.34 ms (1)
+Mar 03 20:58:08 symfony [info] {sfWebDebugLogger} Action "alerta/index" 7.18 ms (1)
+Mar 03 20:58:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.46 ms (2)
+Mar 03 20:58:08 symfony [info] {sfWebDebugLogger} View "Success" for "alerta/index" 2.27 ms (1)
+Mar 03 20:58:08 symfony [info] {sfWebResponse} Send content (37718 o)
+Mar 03 20:58:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alerta with parameters array (  'module' => 'alerta',  'action' => 'index',)
+Mar 03 20:58:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:58:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:58:53 symfony [info] {alertaActions} Call "alertaActions->executeIndex()"
+Mar 03 20:58:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:58:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo`, `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `alerta_medica` `a` LEFT JOIN `pais_salud` `p` ON `a`.`pais_id` = `p`.`id` - ()
+Mar 03 20:58:53 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/alerta/templates/indexSuccess.php"
+Mar 03 20:58:53 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:53 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:58:53 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:58:53 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (9)
+Mar 03 20:58:53 symfony [info] {sfWebDebugLogger} Factories 7.28 ms (1)
+Mar 03 20:58:53 symfony [info] {sfWebDebugLogger} Action "alerta/index" 6.63 ms (1)
+Mar 03 20:58:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.36 ms (2)
+Mar 03 20:58:53 symfony [info] {sfWebDebugLogger} View "Success" for "alerta/index" 1.86 ms (1)
+Mar 03 20:58:53 symfony [info] {sfWebResponse} Send content (37749 o)
+Mar 03 20:58:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:58:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:58:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:58:54 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:58:54 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:58:54 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:58:54 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:58:54 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:54 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:58:54 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:58:54 symfony [info] {sfWebDebugLogger} Configuration 0.35 ms (9)
+Mar 03 20:58:54 symfony [info] {sfWebDebugLogger} Factories 6.40 ms (1)
+Mar 03 20:58:54 symfony [info] {sfWebDebugLogger} Action "test/index" 9.89 ms (1)
+Mar 03 20:58:54 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.63 ms (2)
+Mar 03 20:58:54 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 4.39 ms (1)
+Mar 03 20:58:54 symfony [info] {sfWebResponse} Send content (35496 o)
+Mar 03 20:58:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 20:58:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:58:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:58:55 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 20:58:55 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 20:58:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 20:58:55 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:55 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:58:55 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:58:55 symfony [info] {sfWebDebugLogger} Configuration 0.36 ms (9)
+Mar 03 20:58:55 symfony [info] {sfWebDebugLogger} Factories 6.45 ms (1)
+Mar 03 20:58:55 symfony [info] {sfWebDebugLogger} Action "pais/index" 6.86 ms (1)
+Mar 03 20:58:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.11 ms (17)
+Mar 03 20:58:55 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 11.45 ms (1)
+Mar 03 20:58:55 symfony [info] {sfWebResponse} Send content (84525 o)
+Mar 03 20:58:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 20:58:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 20:58:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 20:58:56 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 20:58:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 20:58:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 20:58:56 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 20:58:56 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:56 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 20:58:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 20:58:56 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 20:58:56 symfony [info] {sfWebDebugLogger} Configuration 0.39 ms (9)
+Mar 03 20:58:56 symfony [info] {sfWebDebugLogger} Factories 6.43 ms (1)
+Mar 03 20:58:56 symfony [info] {sfWebDebugLogger} Action "test/index" 6.54 ms (1)
+Mar 03 20:58:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.49 ms (2)
+Mar 03 20:58:56 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 4.41 ms (1)
+Mar 03 20:58:56 symfony [info] {sfWebResponse} Send content (35494 o)
+Mar 03 21:00:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:00:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:00:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:00:19 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:00:19 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:00:19 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:00:19 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 21:00:19 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:00:19 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:00:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:00:19 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:00:19 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (9)
+Mar 03 21:00:19 symfony [info] {sfWebDebugLogger} Factories 7.61 ms (1)
+Mar 03 21:00:19 symfony [info] {sfWebDebugLogger} Action "test/index" 6.50 ms (1)
+Mar 03 21:00:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.44 ms (2)
+Mar 03 21:00:19 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 10.46 ms (1)
+Mar 03 21:00:19 symfony [info] {sfWebResponse} Send content (37107 o)
+Mar 03 21:00:21 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 21:00:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:00:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:00:21 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 21:00:22 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:00:22 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:00:22 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:00:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:00:22 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (9)
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} Factories 6.66 ms (1)
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} Action "pais/index" 8.13 ms (1)
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 2.79 ms (17)
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 13.61 ms (1)
+Mar 03 21:00:22 symfony [info] {sfWebResponse} Send content (84525 o)
+Mar 03 21:00:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /continente with parameters array (  'module' => 'continente',  'action' => 'index',)
+Mar 03 21:00:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:00:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:00:22 symfony [info] {continenteActions} Call "continenteActions->executeIndex()"
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:00:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` - ()
+Mar 03 21:00:22 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/continente/templates/indexSuccess.php"
+Mar 03 21:00:22 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:00:22 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:00:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:00:22 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} Configuration 0.37 ms (9)
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} Factories 5.75 ms (1)
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} Action "continente/index" 7.60 ms (1)
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.35 ms (2)
+Mar 03 21:00:22 symfony [info] {sfWebDebugLogger} View "Success" for "continente/index" 3.67 ms (1)
+Mar 03 21:00:22 symfony [info] {sfWebResponse} Send content (44343 o)
+Mar 03 21:00:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:00:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:00:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:00:23 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:00:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:00:23 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:00:23 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 21:00:23 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:00:23 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:00:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:00:23 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:00:23 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (9)
+Mar 03 21:00:23 symfony [info] {sfWebDebugLogger} Factories 7.44 ms (1)
+Mar 03 21:00:23 symfony [info] {sfWebDebugLogger} Action "test/index" 6.89 ms (1)
+Mar 03 21:00:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.70 ms (2)
+Mar 03 21:00:23 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 12.48 ms (1)
+Mar 03 21:00:23 symfony [info] {sfWebResponse} Send content (37082 o)
+Mar 03 21:01:56 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:01:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:01:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:01:56 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:01:56 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:01:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:01:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 21:01:56 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 21:01:56 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"
+Mar 03 21:01:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 21:01:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 21:01:56 symfony [info] {sfWebDebugLogger} Configuration 0.27 ms (8)
+Mar 03 21:01:56 symfony [info] {sfWebDebugLogger} Factories 5.49 ms (1)
+Mar 03 21:01:56 symfony [info] {sfWebDebugLogger} Action "test/index" 22.20 ms (1)
+Mar 03 21:01:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.08 ms (4)
+Mar 03 21:02:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:02:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:02:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:02:25 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:02:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:02:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:02:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 21:02:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 21:02:25 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"
+Mar 03 21:02:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 21:02:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 21:02:25 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (8)
+Mar 03 21:02:25 symfony [info] {sfWebDebugLogger} Factories 7.85 ms (1)
+Mar 03 21:02:25 symfony [info] {sfWebDebugLogger} Action "test/index" 25.57 ms (1)
+Mar 03 21:02:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.85 ms (4)
+Mar 03 21:05:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:06:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:06:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:06:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:06:13 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:06:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:06:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` - ()
+Mar 03 21:06:55 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:06:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:06:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:06:55 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:06:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:06:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:06:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 21:06:55 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 21:06:55 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"
+Mar 03 21:06:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 21:06:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 21:06:55 symfony [info] {sfWebDebugLogger} Configuration 0.28 ms (8)
+Mar 03 21:06:55 symfony [info] {sfWebDebugLogger} Factories 5.96 ms (1)
+Mar 03 21:06:55 symfony [info] {sfWebDebugLogger} Action "test/index" 25.33 ms (1)
+Mar 03 21:06:55 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.93 ms (4)
+Mar 03 21:07:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:07:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:07:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:07:18 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:07:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:07:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:07:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 21:07:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 21:07:18 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"
+Mar 03 21:07:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 21:07:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 21:07:18 symfony [info] {sfWebDebugLogger} Configuration 0.28 ms (8)
+Mar 03 21:07:18 symfony [info] {sfWebDebugLogger} Factories 5.34 ms (1)
+Mar 03 21:07:18 symfony [info] {sfWebDebugLogger} Action "test/index" 21.37 ms (1)
+Mar 03 21:07:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.88 ms (4)
+Mar 03 21:08:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:08:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:08:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:08:18 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:08:18 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:08:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:08:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 21:08:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 21:08:18 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"
+Mar 03 21:08:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 21:08:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 21:08:18 symfony [info] {sfWebDebugLogger} Configuration 0.28 ms (8)
+Mar 03 21:08:18 symfony [info] {sfWebDebugLogger} Factories 6.31 ms (1)
+Mar 03 21:08:18 symfony [info] {sfWebDebugLogger} Action "test/index" 22.78 ms (1)
+Mar 03 21:08:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.88 ms (4)
+Mar 03 21:08:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:08:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:08:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:08:22 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:08:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:08:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:08:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT DISTINCT `p2`.`id` FROM `pais_salud` `p2` LIMIT 10 - ()
+Mar 03 21:08:22 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre`, `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LEFT JOIN `alerta_medica` `a` ON `p`.`id` = `a`.`pais_id` WHERE `p`.`id` IN ('1', '9', '13', '15', '2', '4', '12', '3', '5', '6') - ()
+Mar 03 21:08:22 symfony [err] {Doctrine_Record_UnknownPropertyException} Unknown record property / related component "<pre>
+alias : PaisSalud
+foreign : id
+local : pais_id
+class : PaisSalud
+type : 0
+table : Object(PaisSaludTable)
+localTable : Object(AlertaMedicaTable)
+name : 
+refTable : 
+onDelete : CASCADE
+onUpdate : 
+deferred : 
+deferrable : 
+constraint : 
+equal : 
+cascade : Array
+owningSide : 
+refClassRelationAlias : 
+foreignKeyName : 
+orderBy : 
+</pre>" on "AlertaMedica"
+Mar 03 21:08:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 03 21:08:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 03 21:08:22 symfony [info] {sfWebDebugLogger} Configuration 9.29 ms (8)
+Mar 03 21:08:22 symfony [info] {sfWebDebugLogger} Factories 8.62 ms (1)
+Mar 03 21:08:22 symfony [info] {sfWebDebugLogger} Action "test/index" 21.36 ms (1)
+Mar 03 21:08:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.93 ms (4)
+Mar 03 21:10:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:10:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:10:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:10:36 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:10:36 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:10:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:10:36 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LIMIT 10 - ()
+Mar 03 21:10:36 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 21:10:36 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:36 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:10:36 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:10:36 symfony [info] {sfWebDebugLogger} Configuration 2.27 ms (10)
+Mar 03 21:10:36 symfony [info] {sfWebDebugLogger} Factories 7.84 ms (1)
+Mar 03 21:10:36 symfony [info] {sfWebDebugLogger} Action "test/index" 7.31 ms (1)
+Mar 03 21:10:36 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.58 ms (3)
+Mar 03 21:10:36 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 13.25 ms (1)
+Mar 03 21:10:36 symfony [info] {sfWebResponse} Send content (42481 o)
+Mar 03 21:10:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 21:10:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:10:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:10:45 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 21:10:45 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:10:45 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:45 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:10:45 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} Configuration 3.47 ms (10)
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} Factories 7.41 ms (1)
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} Action "pais/index" 6.18 ms (1)
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.86 ms (17)
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 9.90 ms (1)
+Mar 03 21:10:45 symfony [info] {sfWebResponse} Send content (84524 o)
+Mar 03 21:10:45 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /continente with parameters array (  'module' => 'continente',  'action' => 'index',)
+Mar 03 21:10:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:10:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:10:45 symfony [info] {continenteActions} Call "continenteActions->executeIndex()"
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:10:45 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` - ()
+Mar 03 21:10:45 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/continente/templates/indexSuccess.php"
+Mar 03 21:10:45 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:45 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:10:45 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} Configuration 3.27 ms (10)
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} Factories 6.23 ms (1)
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} Action "continente/index" 6.78 ms (1)
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.32 ms (2)
+Mar 03 21:10:45 symfony [info] {sfWebDebugLogger} View "Success" for "continente/index" 4.69 ms (1)
+Mar 03 21:10:45 symfony [info] {sfWebResponse} Send content (44344 o)
+Mar 03 21:10:46 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alerta with parameters array (  'module' => 'alerta',  'action' => 'index',)
+Mar 03 21:10:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:10:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:10:46 symfony [info] {alertaActions} Call "alertaActions->executeIndex()"
+Mar 03 21:10:46 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:10:46 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo`, `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `alerta_medica` `a` LEFT JOIN `pais_salud` `p` ON `a`.`pais_id` = `p`.`id` - ()
+Mar 03 21:10:46 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/alerta/templates/indexSuccess.php"
+Mar 03 21:10:46 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:46 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:10:46 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:10:46 symfony [info] {sfWebDebugLogger} Configuration 3.42 ms (10)
+Mar 03 21:10:46 symfony [info] {sfWebDebugLogger} Factories 6.15 ms (1)
+Mar 03 21:10:46 symfony [info] {sfWebDebugLogger} Action "alerta/index" 7.57 ms (1)
+Mar 03 21:10:46 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.44 ms (2)
+Mar 03 21:10:46 symfony [info] {sfWebDebugLogger} View "Success" for "alerta/index" 2.97 ms (1)
+Mar 03 21:10:46 symfony [info] {sfWebResponse} Send content (37720 o)
+Mar 03 21:10:47 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:10:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:10:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:10:47 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:10:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:10:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:10:47 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LIMIT 10 - ()
+Mar 03 21:10:47 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 21:10:47 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:47 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:10:47 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:10:47 symfony [info] {sfWebDebugLogger} Configuration 0.34 ms (9)
+Mar 03 21:10:47 symfony [info] {sfWebDebugLogger} Factories 6.14 ms (1)
+Mar 03 21:10:47 symfony [info] {sfWebDebugLogger} Action "test/index" 7.86 ms (1)
+Mar 03 21:10:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.62 ms (3)
+Mar 03 21:10:47 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 11.57 ms (1)
+Mar 03 21:10:47 symfony [info] {sfWebResponse} Send content (42442 o)
+Mar 03 21:10:56 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /test/sincronizar with parameters array (  'module' => 'test',  'action' => 'sincronizar',)
+Mar 03 21:10:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:10:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:10:56 symfony [info] {testActions} Call "testActions->executeSincronizar()"
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Asia)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (AFG)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Europe)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (ALB)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Africa)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (DZA)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Europe)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (AND)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Africa)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (AGO)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (North America)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (AIA)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (North America)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (ATG)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (South America)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (ARG)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Asia)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (ARM)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (North America)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (ABW)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Australia-Oceania)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (AUS)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Europe)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (AUT)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Asia)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (AZE)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (North America)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (BHS)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`nombre` = ?) LIMIT 1 - (Asia)
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` WHERE (`p`.`codigo_iso` = ?) LIMIT 1 - (BHR)
+Mar 03 21:10:58 symfony [info] {sfFrontWebController} Redirect to "http://localhost:8080/frontend_dev.php/test"
+Mar 03 21:10:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 03 21:10:58 symfony [info] {sfWebResponse} Send header ": http://localhost:8080/frontend_dev.php/test"
+Mar 03 21:10:58 symfony [info] {sfWebDebugLogger} Configuration 0.29 ms (8)
+Mar 03 21:10:58 symfony [info] {sfWebDebugLogger} Factories 6.24 ms (1)
+Mar 03 21:10:58 symfony [info] {sfWebDebugLogger} Action "test/sincronizar" 2434.23 ms (1)
+Mar 03 21:10:58 symfony [info] {sfWebDebugLogger} Database (Doctrine) 4.20 ms (31)
+Mar 03 21:10:58 symfony [info] {sfWebResponse} Send content (114 o)
+Mar 03 21:10:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:10:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:10:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:10:58 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:10:58 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LIMIT 10 - ()
+Mar 03 21:10:58 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 21:10:59 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:59 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:10:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:10:59 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:10:59 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (9)
+Mar 03 21:10:59 symfony [info] {sfWebDebugLogger} Factories 8.23 ms (1)
+Mar 03 21:10:59 symfony [info] {sfWebDebugLogger} Action "test/index" 7.56 ms (1)
+Mar 03 21:10:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.59 ms (3)
+Mar 03 21:10:59 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 11.55 ms (1)
+Mar 03 21:10:59 symfony [info] {sfWebResponse} Send content (42416 o)
+Mar 03 21:11:44 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /pais with parameters array (  'module' => 'pais',  'action' => 'index',)
+Mar 03 21:11:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:11:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:11:44 symfony [info] {paisActions} Call "paisActions->executeIndex()"
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `pais_salud` `p` - ()
+Mar 03 21:11:44 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/pais/templates/indexSuccess.php"
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (3)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (5)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (6)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (2)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (4)
+Mar 03 21:11:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` WHERE (`c`.`id` = ?) - (1)
+Mar 03 21:11:44 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:11:44 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:11:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:11:44 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:11:44 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 21:11:44 symfony [info] {sfWebDebugLogger} Factories 5.35 ms (1)
+Mar 03 21:11:44 symfony [info] {sfWebDebugLogger} Action "pais/index" 6.18 ms (1)
+Mar 03 21:11:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 3.29 ms (17)
+Mar 03 21:11:44 symfony [info] {sfWebDebugLogger} View "Success" for "pais/index" 13.37 ms (1)
+Mar 03 21:11:44 symfony [info] {sfWebResponse} Send content (84525 o)
+Mar 03 21:11:51 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /continente with parameters array (  'module' => 'continente',  'action' => 'index',)
+Mar 03 21:11:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:11:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:11:51 symfony [info] {continenteActions} Call "continenteActions->executeIndex()"
+Mar 03 21:11:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:11:51 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `continente` `c` - ()
+Mar 03 21:11:51 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/continente/templates/indexSuccess.php"
+Mar 03 21:11:51 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:11:51 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:11:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:11:51 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:11:51 symfony [info] {sfWebDebugLogger} Configuration 0.34 ms (9)
+Mar 03 21:11:51 symfony [info] {sfWebDebugLogger} Factories 5.92 ms (1)
+Mar 03 21:11:51 symfony [info] {sfWebDebugLogger} Action "continente/index" 6.54 ms (1)
+Mar 03 21:11:51 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.45 ms (2)
+Mar 03 21:11:51 symfony [info] {sfWebDebugLogger} View "Success" for "continente/index" 5.46 ms (1)
+Mar 03 21:11:51 symfony [info] {sfWebResponse} Send content (44341 o)
+Mar 03 21:12:01 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /alerta with parameters array (  'module' => 'alerta',  'action' => 'index',)
+Mar 03 21:12:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:12:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:12:01 symfony [info] {alertaActions} Call "alertaActions->executeIndex()"
+Mar 03 21:12:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:12:01 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `a`.`id` AS `a__id`, `a`.`pais_id` AS `a__pais_id`, `a`.`descripcion` AS `a__descripcion`, `a`.`nivel_riesgo` AS `a__nivel_riesgo`, `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso` FROM `alerta_medica` `a` LEFT JOIN `pais_salud` `p` ON `a`.`pais_id` = `p`.`id` - ()
+Mar 03 21:12:01 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/alerta/templates/indexSuccess.php"
+Mar 03 21:12:01 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:12:01 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:12:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:12:01 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:12:01 symfony [info] {sfWebDebugLogger} Configuration 0.35 ms (9)
+Mar 03 21:12:01 symfony [info] {sfWebDebugLogger} Factories 6.28 ms (1)
+Mar 03 21:12:01 symfony [info] {sfWebDebugLogger} Action "alerta/index" 6.38 ms (1)
+Mar 03 21:12:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.40 ms (2)
+Mar 03 21:12:01 symfony [info] {sfWebDebugLogger} View "Success" for "alerta/index" 1.83 ms (1)
+Mar 03 21:12:01 symfony [info] {sfWebResponse} Send content (37718 o)
+Mar 03 21:15:02 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /test with parameters array (  'module' => 'test',  'action' => 'index',)
+Mar 03 21:15:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 03 21:15:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 03 21:15:02 symfony [info] {testActions} Call "testActions->executeIndex()"
+Mar 03 21:15:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 03 21:15:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS `num_results` FROM (SELECT `p`.`id` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` GROUP BY `p`.`id`) `dctrn_count_query` - ()
+Mar 03 21:15:02 symfony [info] {Doctrine_Connection_Mysql} query : SELECT `p`.`id` AS `p__id`, `p`.`continente_id` AS `p__continente_id`, `p`.`nombre` AS `p__nombre`, `p`.`casos_totales` AS `p__casos_totales`, `p`.`muertes` AS `p__muertes`, `p`.`codigo_iso` AS `p__codigo_iso`, `c`.`id` AS `c__id`, `c`.`nombre` AS `c__nombre` FROM `pais_salud` `p` LEFT JOIN `continente` `c` ON `p`.`continente_id` = `c`.`id` LIMIT 10 - ()
+Mar 03 21:15:02 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/modules/test/templates/indexSuccess.php"
+Mar 03 21:15:02 symfony [info] {sfPHPView} Decorate content with "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:15:02 symfony [info] {sfPHPView} Render "/workspaces/ProyectSymfony/apps/frontend/templates/layout.php"
+Mar 03 21:15:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 03 21:15:02 symfony [info] {sfWebResponse} Send header ": text/html"
+Mar 03 21:15:02 symfony [info] {sfWebDebugLogger} Configuration 0.33 ms (9)
+Mar 03 21:15:02 symfony [info] {sfWebDebugLogger} Factories 5.53 ms (1)
+Mar 03 21:15:02 symfony [info] {sfWebDebugLogger} Action "test/index" 8.52 ms (1)
+Mar 03 21:15:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.72 ms (3)
+Mar 03 21:15:02 symfony [info] {sfWebDebugLogger} View "Success" for "test/index" 12.35 ms (1)
+Mar 03 21:15:02 symfony [info] {sfWebResponse} Send content (42444 o)

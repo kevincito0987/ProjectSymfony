@@ -53,8 +53,22 @@ class testActions extends sfActions
    */
   // apps/frontend/modules/pais/actions/actions.class.php
   public function executeIndex(sfWebRequest $request)
-  {
-    // Traemos todos los países para la vista
-    $this->paises = Doctrine_Core::getTable('PaisSalud')->findAll();
-  }
+{
+  $this->nombre = "Kevin"; 
+
+  // 1. Configurar el Paginador correctamente
+  $this->pager = new sfDoctrinePager('PaisSalud', 10); 
+  
+  $query = Doctrine_Core::getTable('PaisSalud')
+        ->createQuery('p')
+        ->leftJoin('p.Continente c'); 
+        // Eliminamos ->leftJoin('p.AlertaMedica a') porque no está definida en el schema
+        
+  $this->pager->setQuery($query);
+  $this->pager->setPage($request->getParameter('page', 1));
+  $this->pager->init();
+
+  // 2. Pasamos los resultados a la variable que usa tu Twig
+  $this->paises = $this->pager->getResults();
+}
 }
