@@ -65,8 +65,8 @@ class paisActions extends sfActions
     if ($form->isValid())
     {
       $pais_salud = $form->save();
-
-      $this->redirect('pais/edit?id='.$pais_salud->get());
+      // Redirigir siempre al index para evitar el error ArgumentCountError
+      $this->redirect('pais/index');
     }
   }
 }

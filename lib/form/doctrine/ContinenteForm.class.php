@@ -12,13 +12,26 @@ class ContinenteForm extends BaseContinenteForm
 {
   public function configure()
   {
-    // Añadimos clases de Bootstrap al input de nombre
-    $this->widgetSchema['nombre']->setAttributes([
-      'class' => 'form-control',
-      'placeholder' => 'Ej: Asia, Europa...'
-    ]);
+    // 1. Mejorar el widget del Continente
+    $this->widgetSchema['continente_id']->setOption('add_empty', '--- Selecciona un Continente ---');
+    $this->widgetSchema['continente_id']->setAttributes(['class' => 'form-select']);
+
+    // 2. Añadir validador personalizado para el flujo lógico
+    $this->validatorSchema->setPostValidator(
+      new sfValidatorCallback(array('callback' => array($this, 'validarContinente')))
+    );
+  }
+
+  public function validarContinente($validator, $values)
+  {
+    // Ejemplo de validación lógica: 
+    // Si el código ISO es de un país conocido, verificar que el continente coincida
+    // (Aquí puedes añadir reglas específicas según tu lógica de negocio o base de datos)
     
-    // Quitamos campos innecesarios si los hubiera
-    unset($this['created_at'], $this['updated_at']);
+    if ($values['nombre'] == 'Argentina' && $values['continente_id'] != 5) { // ID 5 es South America en tu DB
+      throw new sfValidatorError($validator, 'Argentina debe pertenecer a South America.');
+    }
+
+    return $values;
   }
 }

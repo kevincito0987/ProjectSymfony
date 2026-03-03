@@ -1,60 +1,38 @@
-<?php use_stylesheets_for_form($form) ?>
-<?php use_javascripts_for_form($form) ?>
+<form action="<?php echo url_for('pais/'.($form->getObject()->isNew() ? 'create' : 'update').(!$form->getObject()->isNew() ? '?id='.$form->getObject()->getId() : '')) ?>" method="post">
+  <?php if (!$form->getObject()->isNew()): ?>
+    <input type="hidden" name="sf_method" value="put" />
+  <?php endif; ?>
 
-<form action="<?php echo url_for('pais/'.($form->getObject()->isNew() ? 'create' : 'update').(!$form->getObject()->isNew() ? '?id='.$form->getObject()->get() : '')) ?>" method="post" <?php $form->isMultipart() and print 'enctype="multipart/form-data" ' ?>>
-<?php if (!$form->getObject()->isNew()): ?>
-<input type="hidden" name="sf_method" value="put" />
-<?php endif; ?>
-  <table>
-    <tfoot>
-      <tr>
-        <td colspan="2">
-          <?php echo $form->renderHiddenFields(false) ?>
-          &nbsp;<a href="<?php echo url_for('pais/index') ?>">Back to list</a>
-          <?php if (!$form->getObject()->isNew()): ?>
-            &nbsp;<?php echo link_to('Delete', 'pais/delete?id='.$form->getObject()->get(), array('method' => 'delete', 'confirm' => 'Are you sure?')) ?>
-          <?php endif; ?>
-          <input type="submit" value="Save" />
-        </td>
-      </tr>
-    </tfoot>
-    <tbody>
-      <?php echo $form->renderGlobalErrors() ?>
-      <tr>
-        <th><?php echo $form['continente_id']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['continente_id']->renderError() ?>
-          <?php echo $form['continente_id'] ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['nombre']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['nombre']->renderError() ?>
-          <?php echo $form['nombre'] ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['casos_totales']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['casos_totales']->renderError() ?>
-          <?php echo $form['casos_totales'] ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['muertes']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['muertes']->renderError() ?>
-          <?php echo $form['muertes'] ?>
-        </td>
-      </tr>
-      <tr>
-        <th><?php echo $form['codigo_iso']->renderLabel() ?></th>
-        <td>
-          <?php echo $form['codigo_iso']->renderError() ?>
-          <?php echo $form['codigo_iso'] ?>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <?php echo $form->renderHiddenFields(false) ?>
+
+  <div class="mb-3">
+    <label class="form-label fw-bold">Nombre del País</label>
+    <?php echo $form['nombre']->render(array('class' => 'form-control')) ?>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label class="form-label fw-bold">Casos Totales</label>
+      <?php echo $form['casos_totales']->render(array('class' => 'form-control')) ?>
+    </div>
+    <div class="col-md-6">
+      <label class="form-label fw-bold">Muertes</label>
+      <?php echo $form['muertes']->render(array('class' => 'form-control')) ?>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label fw-bold">Continente</label>
+    <?php echo $form['continente_id']->render(array('class' => 'form-select')) ?>
+  </div>
+
+  <div class="mb-4">
+    <label class="form-label fw-bold">Código ISO (3 letras)</label>
+    <?php echo $form['codigo_iso']->render(array('class' => 'form-control', 'placeholder' => 'Ej: ARG')) ?>
+  </div>
+
+  <div class="d-flex justify-content-between">
+    <a href="<?php echo url_for('pais/index') ?>" class="btn btn-secondary">Cancelar</a>
+    <button type="submit" class="btn btn-dark">Guardar País</button>
+  </div>
 </form>
