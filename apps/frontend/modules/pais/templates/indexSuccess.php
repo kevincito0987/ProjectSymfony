@@ -1,9 +1,6 @@
 <div class="card shadow mt-4">
   <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
     <h3 class="mb-0">Listado de Países</h3>
-    <a href="<?php echo url_for('test/sincronizar') ?>" class="btn btn-sm btn-outline-light">
-       <i class="fas fa-sync-alt"></i> Sincronizar API
-    </a>
   </div>
   <div class="card-body">
     <div class="row">

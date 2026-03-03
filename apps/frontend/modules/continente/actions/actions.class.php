@@ -12,9 +12,13 @@ class continenteActions extends sfActions
 {
   public function executeIndex(sfWebRequest $request)
   {
-    $this->continentes = Doctrine_Core::getTable('Continente')
-      ->createQuery('a')
-      ->execute();
+    $this->continentes = Doctrine_Core::getTable('Continente')->findAll();
+  }
+
+  public function executeShow(sfWebRequest $request)
+  {
+    $this->continente = Doctrine_Core::getTable('Continente')->find(array($request->getParameter('id')));
+    $this->forward404Unless($this->continente);
   }
 
   public function executeNew(sfWebRequest $request)
@@ -67,7 +71,9 @@ class continenteActions extends sfActions
     {
       $continente = $form->save();
 
-      $this->redirect('continente/edit?id='.$continente->get());
+      // CAMBIO MAESTRO: Redirigimos al listado para ver el cambio de inmediato
+      // Esto evita llamar a ->get() sin argumentos que causa el Fatal Error
+      $this->redirect('continente/index');
     }
   }
 }

@@ -12,5 +12,13 @@ class ContinenteForm extends BaseContinenteForm
 {
   public function configure()
   {
+    // Añadimos clases de Bootstrap al input de nombre
+    $this->widgetSchema['nombre']->setAttributes([
+      'class' => 'form-control',
+      'placeholder' => 'Ej: Asia, Europa...'
+    ]);
+    
+    // Quitamos campos innecesarios si los hubiera
+    unset($this['created_at'], $this['updated_at']);
   }
 }
