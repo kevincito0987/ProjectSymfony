@@ -1,40 +1,25 @@
-FROM mcr.microsoft.com/devcontainers/php:1-8.4-bullseye
+FROM php:7.4-apache-bullseye
+
 USER root
 
-# 1. Limpieza de repositorios problemáticos (Yarn) y actualización de dependencias del SO
-RUN rm -f /etc/apt/sources.list.d/yarn.list \
-    && apt-get update && apt-get install -y --no-install-recommends \
-    git unzip zip curl libpq-dev libicu-dev libzip-dev libpng-dev libjpeg-dev libfreetype6-dev \
-    libonig-dev libxml2-dev libssl-dev ca-certificates sudo docker.io \
- && update-ca-certificates \
- && rm -rf /var/lib/apt/lists/*
+# 1. Instalación de dependencias del SO
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git unzip libicu-dev libpng-dev libjpeg-dev libpq-dev \
+    default-mysql-client libzip-dev \
+    && docker-php-ext-install pdo pdo_mysql gd bcmath intl zip
 
-# 2. Configuración de Docker Compose V2 (Binario directo)
-RUN curl -SL https://github.com/docker/compose/releases/download/v2.24.5/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose \
-    && chmod +x /usr/local/bin/docker-compose \
-    && ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+# 2. Configuración de Apache (Apunta a la raíz de workspaces)
+RUN a2enmod rewrite
+ENV APACHE_DOCUMENT_ROOT /workspaces/web
+RUN sed -ri -e "s!/var/www/html!${APACHE_DOCUMENT_ROOT}!g" /etc/apache2/sites-available/*.conf \
+    && sed -ri -e "s!/var/www/!${APACHE_DOCUMENT_ROOT}!g" /etc/apache2/conf-available/*.conf
 
-# 3. Permisos para el usuario vscode
-RUN usermod -aG docker vscode
+# 3. Composer manual (Para evitar líos de GLIBC)
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# 4. Extensiones de PHP
-RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
- && docker-php-ext-install -j"$(nproc)" bcmath intl pdo pdo_mysql pdo_pgsql zip gd exif pcntl sockets
-
-# 5. Instalación limpia de Node 20 y pnpm (evitando conflictos de repo)
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
- && apt-get install -y nodejs \
- && npm i -g pnpm@9 \
- && rm -rf /var/lib/apt/lists/*
-
-# Config PHP (Asegúrate de que estas rutas existan en tu repo)
-COPY .devcontainer/php.ini /usr/local/etc/php/conf.d/zz-dev.ini
-COPY .devcontainer/xdebug.ini /usr/local/etc/php/conf.d/zz-xdebug.ini
-
-# Unifica ruta de trabajo con devcontainer.json
+# 4. Preparar el espacio de trabajo (Solo workspaces)
 WORKDIR /workspaces
+RUN mkdir -p /workspaces
 
-# Ajuste de permisos final
-RUN chown -R vscode:vscode /workspaces
-
-USER vscode
+# Limpieza
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
