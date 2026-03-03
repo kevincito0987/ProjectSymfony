@@ -1,0 +1,22 @@
+# config/doctrine/schema.yml
+Continente:
+  columns:
+    nombre:        { type: string(100), notnull: true }
+
+PaisSalud:
+  columns:
+    continente_id: { type: integer, notnull: true }
+    nombre:        { type: string(100), notnull: true }
+    casos_totales: { type: integer }
+    muertes:       { type: integer }
+    codigo_iso:    { type: string(10), unique: true }
+  relations:
+    Continente:    { local: continente_id, foreign: id, type: one, onDelete: CASCADE }
+
+AlertaMedica:
+  columns:
+    pais_id:       { type: integer, notnull: true }
+    descripcion:   { type: clob, notnull: true }
+    nivel_riesgo:  { type: enum, values: [Bajo, Medio, Alto], default: Bajo }
+  relations:
+    PaisSalud:     { local: pais_id, foreign: id, type: one, onDelete: CASCADE }
